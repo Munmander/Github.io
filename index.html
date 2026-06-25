@@ -1,3 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | 3D Platformer</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">3D Platformer</div>
+      </div>
+    </div>
+    <script>
 
-<!-- saved from url=(0014)about:internet -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="color-scheme" content="light dark"></head><body><div class="line-gutter-backdrop"></div><form autocomplete="off"><label class="line-wrap-control">Line wrap<input type="checkbox" aria-label="Line wrap"></label></form><table><tbody><tr><td class="line-number" value="1"></td><td class="line-content"><span class="html-doctype">&lt;!DOCTYPE html&gt;</span><span class="html-tag">&lt;html&gt;</span><span class="html-tag">&lt;head&gt;</span><span class="html-tag">&lt;meta</span></td></tr><tr><td class="line-number" value="2"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">charset</span>="<span class="html-attribute-value">utf-8</span>"&gt;</span><span class="html-tag">&lt;meta</span></td></tr><tr><td class="line-number" value="3"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">name</span>="<span class="html-attribute-value">viewport</span>" <span class="html-attribute-name">content</span>="<span class="html-attribute-value">width=device-width, initial-scale=1</span>"&gt;</span><span class="html-tag">&lt;title&gt;</span>Better Motherfucking Website<span class="html-tag">&lt;/title&gt;</span><span class="html-tag">&lt;style <span class="html-attribute-name">type</span>="<span class="html-attribute-value">text/css</span>"&gt;</span>body{margin:40px</td></tr><tr><td class="line-number" value="4"></td><td class="line-content">auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0</td></tr><tr><td class="line-number" value="5"></td><td class="line-content">10px}h1,h2,h3{line-height:1.2}<span class="html-tag">&lt;/style&gt;</span><span class="html-tag">&lt;/head&gt;</span><span class="html-tag">&lt;body&gt;</span><span class="html-tag">&lt;header&gt;</span><span class="html-tag">&lt;h1&gt;</span>This is <span class="html-tag">&lt;em&gt;</span>still<span class="html-tag">&lt;/em&gt;</span> a motherfucking website.<span class="html-tag">&lt;/h1&gt;</span></td></tr><tr><td class="line-number" value="6"></td><td class="line-content"><span class="html-tag">&lt;aside&gt;</span>And it's more fucking perfect than the last guy's.<span class="html-tag">&lt;/aside&gt;</span></td></tr><tr><td class="line-number" value="7"></td><td class="line-content"><span class="html-tag">&lt;/header&gt;</span><span class="html-tag">&lt;h2&gt;</span>Seriously, it takes minimal fucking effort to improve this shit.<span class="html-tag">&lt;/h2&gt;</span><span class="html-tag">&lt;p&gt;</span><span class="html-tag">&lt;strong&gt;</span>7 fucking declarations.<span class="html-tag">&lt;/strong&gt;</span><span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;p&gt;</span>That's how much CSS it took to turn that <span class="html-tag">&lt;a</span></td></tr><tr><td class="line-number" value="8"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">href</span>="<a class="html-attribute-value html-external-link" target="_blank" href="http://motherfuckingwebsite.com/" rel="noreferrer noopener">http://motherfuckingwebsite.com/</a>"&gt;</span>grotesque pile of shit<span class="html-tag">&lt;/a&gt;</span> into this easy-to-read masterpiece. It's so fucking simple and it <span class="html-tag">&lt;em&gt;</span>still<span class="html-tag">&lt;/em&gt;</span> has all the glory of the original perfect-ass website:<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;ul&gt;</span><span class="html-tag">&lt;li&gt;</span>Shit's <span class="html-tag">&lt;em&gt;</span>still<span class="html-tag">&lt;/em&gt;</span> lightweight and loads fast<span class="html-tag">&lt;/li&gt;</span><span class="html-tag">&lt;li&gt;</span><span class="html-tag">&lt;em&gt;</span>Still<span class="html-tag">&lt;/em&gt;</span> fits on all your shitty screens<span class="html-tag">&lt;/li&gt;</span><span class="html-tag">&lt;li&gt;</span><span class="html-tag">&lt;em&gt;</span>Still<span class="html-tag">&lt;/em&gt;</span> looks the same in all your shitty browsers<span class="html-tag">&lt;/li&gt;</span><span class="html-tag">&lt;li&gt;</span>The motherfucker's <span class="html-tag">&lt;em&gt;</span>still<span class="html-tag">&lt;/em&gt;</span> accessible to every asshole that visits your site<span class="html-tag">&lt;/li&gt;</span><span class="html-tag">&lt;li&gt;</span>Shit's <span class="html-tag">&lt;em&gt;</span>still<span class="html-tag">&lt;/em&gt;</span> legible and gets your fucking point across<span class="html-tag">&lt;/li&gt;</span><span class="html-tag">&lt;/ul&gt;</span><span class="html-tag">&lt;h3&gt;</span>And guess what, motherfucker:<span class="html-tag">&lt;/h3&gt;</span><span class="html-tag">&lt;p&gt;</span>You never knew it, but it's easy to improve readability on your site. Here's how.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;h2&gt;</span>Let it breathe<span class="html-tag">&lt;/h2&gt;</span><span class="html-tag">&lt;p&gt;</span>Look at lines 1 and 2 of some shitty website you're building. Assuming they're not married they probably shouldn't be humping. The defaults are trash -- pick a minimum <span class="html-tag">&lt;code&gt;</span>line-height: 1.4<span class="html-tag">&lt;/code&gt;</span> for body copy. Headings should be tighter. If you can't see that...piss off.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;p&gt;</span>If your text hits the side of the browser, fuck off forever. You ever see a book like that? Yes? What a shitty book.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;h2&gt;</span>A little less contrast<span class="html-tag">&lt;/h2&gt;</span><span class="html-tag">&lt;p&gt;</span>Black on white? How often do you see that kind of contrast in real life? Tone it down a bit, asshole. I would've even made this site's background a nice <span class="html-tag">&lt;code&gt;</span>#EEEEEE<span class="html-tag">&lt;/code&gt;</span> if I wasn't so focused on keeping declarations to a lean 7 fucking lines.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;h2&gt;</span>Size Matters<span class="html-tag">&lt;/h2&gt;</span><span class="html-tag">&lt;p&gt;</span>I know your partner says otherwise, but it's true. Bump that body copy to render close to 16px or more. Smaller type works well for print, not the screen.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;h2&gt;</span>Line-width, motherfucker<span class="html-tag">&lt;/h2&gt;</span><span class="html-tag">&lt;p&gt;</span>Looking at an LCD screen is strainful enough. Don't make me read a line of text that's 200 fucking characters long. Keep it to a nice 60-80 and users might actually read more than one sentence of your worthless dribble.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;h3&gt;</span>Yes, this is <span class="html-tag">&lt;em&gt;</span>also<span class="html-tag">&lt;/em&gt;</span> fucking satire, you fuck<span class="html-tag">&lt;/h3&gt;</span><span class="html-tag">&lt;p&gt;</span>I love what the creator of <span class="html-tag">&lt;a</span></td></tr><tr><td class="line-number" value="9"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">href</span>="<a class="html-attribute-value html-external-link" target="_blank" href="http://motherfuckingwebsite.com/" rel="noreferrer noopener">http://motherfuckingwebsite.com/</a>"&gt;</span>this site's inspiration<span class="html-tag">&lt;/a&gt;</span> did. What I'm saying is that it's so, so simple to make sites easier to read. Websites are broken by default, they are functional, high-performing, and accessible, but they're also fucking ugly. You and all the other web designers out there need to make them not total shit.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;blockquote&gt;</span>"You're a fucking moron if you use default browser styles."</td></tr><tr><td class="line-number" value="10"></td><td class="line-content"><span class="html-tag">&lt;br&gt;</span></td></tr><tr><td class="line-number" value="11"></td><td class="line-content">- Eleanor Roosevelt<span class="html-tag">&lt;/blockquote&gt;</span><span class="html-tag">&lt;hr&gt;</span><span class="html-tag">&lt;h2&gt;</span>Epilogue<span class="html-tag">&lt;/h2&gt;</span><span class="html-tag">&lt;p&gt;</span>Inspired by the geniuses behind <span class="html-tag">&lt;a</span></td></tr><tr><td class="line-number" value="12"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">href</span>="<a class="html-attribute-value html-external-link" target="_blank" href="http://motherfuckingwebsite.com/" rel="noreferrer noopener">http://motherfuckingwebsite.com/</a>"&gt;</span>motherfuckingwebsite.com<span class="html-tag">&lt;/a&gt;</span> and <span class="html-tag">&lt;a</span></td></tr><tr><td class="line-number" value="13"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">href</span>="<a class="html-attribute-value html-external-link" target="_blank" href="http://txti.es/" rel="noreferrer noopener">http://txti.es</a>"&gt;</span>txti<span class="html-tag">&lt;/a&gt;</span>.<span class="html-tag">&lt;/p&gt;</span><span class="html-tag">&lt;p&gt;</span>This page&amp;mdash;that isn't a total fucking eyesore&amp;mdash;was created by <span class="html-tag">&lt;a</span></td></tr><tr><td class="line-number" value="14"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">href</span>="<a class="html-attribute-value html-external-link" target="_blank" href="https://twitter.com/drew_mc" rel="noreferrer noopener">https://twitter.com/drew_mc</a>"&gt;</span>me<span class="html-tag">&lt;/a&gt;</span> with help from <span class="html-tag">&lt;a</span></td></tr><tr><td class="line-number" value="15"></td><td class="line-content"><span class="html-tag"><span class="html-attribute-name">href</span>="<a class="html-attribute-value html-external-link" target="_blank" href="https://twitter.com/gabehammersmith" rel="noreferrer noopener">https://twitter.com/gabehammersmith</a>"&gt;</span>him<span class="html-tag">&lt;/a&gt;</span>. <span class="html-tag">&lt;script&gt;</span>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-46163202-2','auto');ga('send','pageview');<span class="html-tag">&lt;/script&gt;</span> <span class="html-tag">&lt;/body&gt;</span><span class="html-tag">&lt;/html&gt;</span></td></tr></tbody></table></body></html>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/2026-06-25.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/2026-06-25.data.gz",
+        frameworkUrl: buildUrl + "/2026-06-25.framework.js.gz",
+        codeUrl: buildUrl + "/2026-06-25.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "3D Platformer",
+        productVersion: "0.1",
+        showBanner: unityShowBanner,
+      };
+
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      // If you would like all file writes inside Unity Application.persistentDataPath
+      // directory to automatically persist so that the contents are remembered when
+      // the user revisits the site the next time, uncomment the following line:
+      // config.autoSyncPersistentDataPath = true;
+      // This autosyncing is currently not the default behavior to avoid regressing
+      // existing user projects that might rely on the earlier manual
+      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+      // expected to change.
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
+      }
+
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+                fullscreenButton.onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
+
+    </script>
+  </body>
+</html>
